@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+body{
+    background: url("Backimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    }
+header{
+        background-color: darkred;
+    }
+h1{
+        font-family: 'Times New Roman', Times, serif;
+    }
+header .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+a{
+        text-decoration: none;
+        color: black;
+    }
+.cloth, .food, .shelter{
+    max-width: 15em;
+    /* height: 25vh; */
+    width: 100%;
+    text-align: center;
+    border: 8px maroon solid;
+    border-radius: 15px ;
+    padding: 20px;
+}
+.cloth:hover, .food:hover, .shelter:hover{
+    font-size: larger;
+   
+}
+.cloth p, .food p, .shelter p{
+    font-weight: 900;
+}
+.cloth{
+    background-image: url("shoe\ 6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.food{
+    background-image: url("circle.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.shelter{
+    background-image: url("right.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.first-page .container{
+    display: flex;
+    /* gap: 5px; */
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+footer{
+    position: absolute;
+    top: 97%;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background-color: red;
+}
+
+@media screen and (max-width:960px){
+    .container{
+        max-width: 750px;
+    }
+}
+
+@media screen and (max-width:790px){
+    .container{
+        max-width: 680px;
+    }
+a{
+    font-size: 15px;
+    }
+.cloth, .food, .shelter{
+    max-width: 13em;
+    padding: 15px;
+}
+h2{
+    font-size: 15px;
+}
+}
+
+@media screen and (max-width:720px){
+    .container{
+        max-width: 580px;
+    }
+    a{
+        font-size: 12px;
+        }
+    .cloth, .food, .shelter{
+        max-width: 13em;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:620px){
+    .container{
+        max-width: 500px;
+    }
+    h1{
+        font-size: 18px;
+    }
+    header p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:530px){
+    .container{
+        max-width: 400px;
+    }
+    header .container{
+        display: block;
+    }
+    .first-page .container{
+        /* display: block; */
+        flex-direction: column;
+        gap: 20px;
+    }
+    .cloth, .food, .shelter{
+        max-width: 15em;
+        padding: 20px;
+    }
+}
+@media screen and (max-width:400px){
+    .container{
+        max-width: 340px;
+    }
+}

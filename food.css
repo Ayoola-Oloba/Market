@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    background-color: maroon;
+    padding: 10px;
+}
+header .container p{
+    font-weight: 900;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;*/
+} 
+#food{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    padding: 5px;
+}
+a{
+    font-size: 50px;
+    padding: 50px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.spagking a{
+    color: darkgoldenrod;
+  
+}
+.spagking{
+    background-image: url("spagking.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.norah{
+    background-image: url("download.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.norah a{
+    color: blue;
+}
+@media screen and (max-width:1020px){
+    a{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:720px){
+    a{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:626px){
+    a{
+        font-size: 35px;
+        padding: 40px;
+    }
+}
+@media screen and (max-width:500px){
+    #food{
+        grid-template-columns: repeat(1,1fr);
+    }
+    a{
+        font-size: 30px;
+        padding: 60px;
+    }
+}

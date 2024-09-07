@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    background-color: rgb(112, 198, 233);
+    padding: 10px;
+}
+
+a{
+    font-size: 60px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    /* text-align: left; */
+}
+/* hr{
+    margin: 5px;
+} */
+#Wears{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+}
+.rae{
+    /* padding: 1em; */
+    display: flex;
+    align-items: center;
+    background-image: url("barbie.jpg");
+    background-size: cover;
+    /* padding: 20px; */
+    background-repeat: no-repeat;
+    
+}
+.vhikky{
+    background-image: url("vhikky.jpg");
+    background-position: center;
+    background-size: cover;
+    /* padding: 1em; */
+    /* padding: 20px; */
+}
+.vicky{
+    background-image: url("vicky.jpg");
+    background-position: center;
+    background-size: cover;
+    /* padding: 20px; */
+}
+.rae a{
+    color: black;
+}
+.vhikky a{
+    color: white;
+}
+.vicky a{
+    color: royalblue;
+}
+
+@media screen and (max-width:1028px){
+    .container{
+        max-width: 900px;
+    }
+    a{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:891px){
+    .container{
+        max-width: 700px;
+    }
+    a{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:720px){
+    h1{
+        font-size: 20px;
+    }
+    a{
+        padding: 40px;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:500px){
+    #Wears{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 5px;
+    }
+}
