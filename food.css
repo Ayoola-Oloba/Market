@@ -76,6 +76,9 @@ a{
     #food{
         grid-template-columns: repeat(1,1fr);
     }
+    h1{
+        font-size:18px;
+    }
     a{
         font-size: 30px;
         padding: 60px;
