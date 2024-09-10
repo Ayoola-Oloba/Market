@@ -94,6 +94,12 @@ footer{
     .container{
         max-width: 750px;
     }
+     h1{
+        font-size: 25px;
+    }
+    header .container{
+        display: block;
+    }
 }
 
 @media screen and (max-width:790px){
@@ -139,9 +145,7 @@ h2{
     .container{
         max-width: 400px;
     }
-    header .container{
-        display: block;
-    }
+    
     .first-page .container{
         /* display: block; */
         flex-direction: column;
