@@ -87,7 +87,7 @@ footer{
     width: 100%;
     text-align: center;
     padding: 5px;
-    background-color: red;
+    background-color: wheat;
 }
 
 @media screen and (max-width:960px){
