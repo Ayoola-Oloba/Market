@@ -32,3 +32,14 @@ a{
     background-size: cover;
     
 }
+@media screen and (max-width:626px){
+    h1{
+        font-size: 20px;
+    }    
+}
+@media screen and (max-width:524px){
+    a{
+        font-size: 30px;
+        padding: 60px;
+    }
+}
