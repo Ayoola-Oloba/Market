@@ -52,6 +52,8 @@ a{
     background-image: url("heritage.jpg");
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
 }
 .vicky{
     background-image: url("vicky.jpg");
