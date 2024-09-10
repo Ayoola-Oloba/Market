@@ -48,6 +48,11 @@ a{
     /* padding: 1em; */
     /* padding: 20px; */
 }
+.heritage{
+    background-image: url("heritage.jpg");
+    background-position: center;
+    background-size: cover;
+}
 .vicky{
     background-image: url("vicky.jpg");
     background-position: center;
